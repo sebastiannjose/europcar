@@ -1,0 +1,39 @@
+/* 
+ * Porto v1.0.0
+ *
+ * @author: SEBASTIAN A. NJOSE
+ * @profile: http://www.freelancer.com/u/njose.html
+ *
+ **/
+
+body, html, .container { height: 100%; }
+body { margin: 0 0; padding: 0 0; background-color: #efefef; font-family: 'Open Sans', Arial, sans-serif; color: #333; }
+
+/* ---- misc ---- */
+.banner { margin-bottom: 20px; border-bottom-left-radius: 7px; -moz-border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; -moz-border-bottom-right-radius: 7px; -webkit-border-bottom-right-radius: 7px; }
+
+.btn-green { padding: 15px 30px; background-color: #419839; font-size: 20px; font-weight: 600px; color: #fff; }
+.btn-green:hover, .btn-green:focus { opacity: 0.9; color: #fff; }
+
+
+/* ---- forms ---- */
+.success { padding: 100px 0; font-size: 20px; text-align: center; color: #0C0; }
+.success i.fa { font-size: 40px; }
+.form-horizontal h3 { color: #419839; }
+small.input-invalid { display: none; font-size: 13px; color: #F00; }
+
+/* ---- responsive ---- */
+@media screen and (min-width: 1200px) {
+
+}
+
+@media (min-width: 768px) {
+    .container-large { width: 960px; }
+    .form-horizontal .control-label { padding: 7px 0; font-weight: normal; text-align: left; }
+}
+
+/*
+.container-large { max-width: 100%; }
+*/
+
+

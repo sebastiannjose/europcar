@@ -1,0 +1,25 @@
+/* 
+ * Porto v1.0.0
+ *
+ * @author: SEBASTIAN A. NJOSE
+ * @profile: http://www.freelancer.com/u/njose.html
+ *
+ **/
+ 
+ul.accordion { margin: 10px 20px; padding: 0 0; list-style: none; }
+ul.accordion li { margin: 20px 0 10px 0;  }
+
+.accordion-icon { background-color: #419839; border-radius: 7px; -moz-border-radius: 7px; -webkit-border-radius: 7px; }
+.accordion-icon img { margin: 5px 0; max-width: 40px; }
+.accordion-spacer { position: relative; display: table-cell; vertical-align: middle; width: 10px; z-index: 2; }
+.accordion-label { position: relative; display: table-cell; vertical-align: middle; background-color: #fff; border-top-left-radius: 7px; -moz-border-top-left-radius: 7px; -webkit-border-top-left-radius: 7px; border-bottom-left-radius: 7px; -moz-border-bottom-left-radius: 7px; -webkit-border-bottom-left-radius: 7px; z-index: 2; }
+.accordion-label div { padding: 0 20px; font-size: 20px; font-weight: 600px; }
+.accordion-group-btn { background-color: #ffdc00; border-top-right-radius: 7px; -moz-border-top-right-radius: 7px; -webkit-border-top-right-radius: 7px; border-bottom-right-radius: 7px; -moz-border-bottom-right-radius: 7px; -webkit-border-bottom-right-radius: 7px; z-index: 100; }
+.accordion-group-btn:hover { opacity: 0.8; cursor: pointer; }
+.accordion-btn { background: none; padding: 10px 35px; font-size: 16px; font-weight: 400; }
+.accordion-group-btn i { font-weight: 600; }
+.accordion-group-btn i.fa { padding: 0 5px; }
+
+.accordion-details { display: none; margin-top: 20px; padding: 20px; background: #fff; border-bottom: 5px solid #ffdc00; border-radius: 7px; -moz-border-radius: 7px; -webkit-border-radius: 7px; font-size: 16px; }
+.accordion-details form h3 { margin-left: -15px; }
+.accordion-details form div.caption { margin-left: -15px; padding: 10px 0; font-size: 14px; }
